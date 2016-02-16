@@ -65,7 +65,7 @@ class ViewController: UIViewController {
         }
         if let opera = sender.currentTitle{
             if let result = brain.performOperation(opera){
-                print(opera)
+//                print(opera)
                 displayValue = result
             } else {
                 displayValue = 0
