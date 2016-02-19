@@ -59,6 +59,10 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func Guarantee() {
+        print(brain.program)
+    }
+    
     @IBAction func operation(sender: UIButton) {
         if userIsTyping{
             enter()

@@ -136,6 +136,10 @@
                             <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GkV-05-aNZ">
                                 <rect key="frame" x="28" y="474" width="102.5" height="118"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="XX"/>
+                                <connections>
+                                    <action selector="Guarantee" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5v-yx-URz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7s-Jl-KyS">
                                 <rect key="frame" x="359" y="96" width="102.5" height="118"/>
